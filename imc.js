@@ -28,6 +28,6 @@ function imc(){
     }
     console.log(paciente)
     console.log(paciente.calcularIMC())
-    let resposta=document.getElementById('resposta');
+    let resposta=document.getElementById("resposta");
     resposta.innerHTML="Seu IMC e "+paciente.calcularIMC()+". " + "Sua classificaçao de peso e " + paciente.classificacao;
 }
